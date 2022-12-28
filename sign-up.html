@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+
+    <title>All About Covid-19</title>
+</head>
+<body>
+<!-- Header -->
+<header class="main-header-sign-up">
+    <nav class="transparent">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Covid-19 Management</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html"><b>Home</b></a>
+                    </li>
+                    <li>
+                        <a href="services.html"><b>Services</b></a>
+                    </li>
+                    <li>
+                        <a href="about.html"><b>About</b></a>
+                    </li>
+                    <li class="active">
+                        <a href="sign-up.html"><b>Sign-Up</b></a>
+                    </li>
+                    <li>
+                        <a href="#login" class="btn cyan darken-3 modal-trigger"><b>Login</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Showcase -->
+<div class="showcase container"> 
+    <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+            <h5>Welcome To Our Health Care</h5>
+            <h1>Create an Account</h1>
+            <br><br>
+        </div>
+    </div>
+</div>
+</header>
+
+<!-- Sidenav -->
+<ul id="slide-out" class="sidenav">
+    <li>
+        <a href="index.html"><b>Home</b></a>
+    </li>
+    <li>
+        <a href="services.html"><b>Services</b></a>
+    </li>
+    <li>
+        <a href="about.html"><b>About</b></a>
+    </li>
+    <li class="active">
+        <a href="sign-up.html"><b>Sign-Up</b></a>
+    </li>
+    <li>
+        <a href="#login" class="btn cyan darken-3 modal-trigger"><b>Login</b></a>
+    </li>
+</ul>
+
+<!-- Section: Services -->
+<section class="section section-sign-up">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <h4>Get a free account</h4>
+                <p>When you login, you may get a free account. This comes with different informations about any topics that you may get interested.</p>
+            </div>
+            <div class="col s12 m6">
+                <form action="">
+                    <div class="card-panel cyan lighten-5 grey-text text-darken-3 z-depth-5">
+                        <div class="input-field">
+                            <input type="text">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="number">
+                            <label for="age">Age</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password">
+                            <label for="password">Password</label>
+                        </div>
+                        <input type="submit" class="btn btn-large cyan btn-extend">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="page-footer light-blue darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Let's Value Our Health</h5>
+                <p class="grey-text text-lighten-4">For more informations, you may visit the site of Department of Health.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"></h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://doh.gov.ph/">Department of Health</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://doh.gov.ph/covid19tracker">Covid-19 Tracker</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://doh.gov.ph/bulletin">Covid-19 Bulletin</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://doh.gov.ph/vaccines">Covid-19 Vaccines</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container center">
+            Copyright Text 2022 @ All Rights Reserved
+        </div>
+    </div>
+</footer>
+
+<!-- Login Modal -->
+<div id="login" class="modal">
+        <div class="modal-content">
+            <h4>Account Login</h4>
+            <p>Login to access your account.</p>
+            <form action="">
+                <div class="input-field">
+                    <input type="email">
+                    <label form="email">E-mail</label>
+                </div>
+                <div class="input-field">
+                    <input type="password">
+                    <label form="password">Password</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="" class="modal-action modal-close btn cyan darken-3">
+                <i class="material-icons left">lock_open</i>Login
+            </a>
+            <a href="" class="modal-action modal-close btn cyan darken-3">
+                <i class="material-icons left">autorenew</i>Reset Password
+            </a>
+        </div>
+</div>
+
+
+<!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+<!-- Complied and minified Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- Initialization -->
+<script>
+    $(document).ready(function() {
+        // Sidenav
+        $('.sidenav').sidenav();
+        // Slider
+        $('.slider').slider();           
+        // Material Boxed
+        $('.materialboxed').materialbox();
+        // Carousel
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true
+        })
+        // Modal
+        $('.modal').modal();
+    });
+</script>
+
+
+</body>
+</html>

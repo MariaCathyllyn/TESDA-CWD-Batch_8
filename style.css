@@ -1,0 +1,46 @@
+.main-header {
+    background: url(../images/background3.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+}
+
+.main-header-sign-up {
+    background: url(../images/covidbackground.jpeg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+}
+
+.main-header .showcase {
+    padding-top: 100px;
+}
+
+.main-header-sign-up .showcase {
+    padding-top: 50px;
+}
+
+.section-developers {
+    position: relative;
+    background: url(../images/background4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+}
+
+.primary-overlay {
+    background: rgba(7, 91, 159, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-extend {
+    display: block;
+    width: 100%;
+}
+
